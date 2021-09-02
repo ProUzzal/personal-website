@@ -1,0 +1,145 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    ont-family: 'Roboto', sans-serif;
+}
+*{
+
+ box-sizing: border-box;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-sec{
+    background-color: cadetblue;
+   
+}
+.nav-bar li{
+  display: inline-block;
+}
+ul{
+    list-style-type: none;
+    margin-right: 6%;
+    padding: 0;
+    float: right;
+   
+}
+.nav-bar a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+.nav-bar li:hover{
+    background-color: gray;
+    color: white;
+    border-radius:5px ;
+}
+.clearfix::after{
+    clear:both;
+    content: "";
+    display: table;
+    overflow: hidden;
+}
+
+/*Personal Info Part and about part*/
+.col-half{
+    float: left;
+    width: 45%;
+    height: 500px;
+  padding: 20px;
+  
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    margin-top: -55px;
+    object-fit: scale-down;
+ 
+}
+.text-part{
+    margin-left: 5%;
+  padding:77px 0px 0px 137px;
+    color:black;
+}
+#name{
+    color: #FF8367;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+#hello{
+    color:#363958;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+
+}
+button{
+    background: #F86A61;
+    color:white;
+    border: none;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+/*Latest Work Part*/
+.latest_work{
+    background-color: #F8F9FF;
+    height: 600px;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+img{
+    max-width:100%;
+}
+.title{
+    text-align:center;
+}
+.work{
+    width: 28.33%;
+    float: left;
+    margin: 0px 20px;
+    border: 15px solid white;
+border-radius: 10px;    
+background-color: white;
+box-shadow: 2px 2px 5px lightgrey;
+}
+.work-section{
+    width: 100%;
+    padding: 30px 100px;
+}
+.work-inq{
+      max-width: 50%;
+    background-image: url(images/Group_33094_1.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    padding: 38px 50px;
+    background-size: contain;
+    margin-bottom: 40px;
+
+}
+#last-btn{margin-top: 20px;}
+.col-1{
+color: white;
+    width: 70%;
+}
+.col-2{
+    width: 30%;
+}
+.work-inq div{float:left}
+
+
+
+/* footer */
+.footer-part{
+    text-align: center;
+}
+.social img{    max-width: 100%;
+    display: inline-block;
+    height: 52px;
+    margin: 10px;}
