@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x:hidden;
-    ont-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 *{
 
@@ -146,6 +146,11 @@ color: white;
     height: 52px;
     margin: 10px;}
 
+
+button:hover{
+    cursor: pointer;
+    background: rgba(219, 43, 43, 0.8)
+}
     /* Responsive for mobile device */
     @media only screen and (max-width: 600px) {
         .col-half{
