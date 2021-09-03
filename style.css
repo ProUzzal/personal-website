@@ -113,6 +113,8 @@ box-shadow: 2px 2px 5px lightgrey;
     width: 100%;
     padding: 30px 100px;
 }
+
+/* inquire section */
 .work-inq{
       max-width: 50%;
     background-image: url(images/Group_33094_1.png);
@@ -143,3 +145,25 @@ color: white;
     display: inline-block;
     height: 52px;
     margin: 10px;}
+
+    /* Responsive for mobile device */
+    @media only screen and (max-width: 600px) {
+        .col-half{
+            width:100%;
+        }
+            .text-part {
+                padding: 34px 18px;
+            }
+            .work{
+                width: 100%;
+                margin-top:20px;
+            }
+            .latest_work{
+                background-color: #F8F9FF;
+            }
+            .work-section{
+                background-color:lightgray;
+                padding:0;
+            }
+        }
+    
