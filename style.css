@@ -153,22 +153,64 @@ button:hover{
 }
     /* Responsive for mobile device */
     @media only screen and (max-width: 600px) {
+        .nav-bar a{
+            padding: .4em;
+            display: inline-block;
+        } 
         .col-half{
             width:100%;
-        }
+            margin:0;
+            padding: 0;
+           
+            }
             .text-part {
                 padding: 34px 18px;
             }
+            #name, #hello{
+                font-size:30px
+            }
             .work{
                 width: 100%;
-                margin-top:20px;
+                margin:10px 0px;
+  
             }
             .latest_work{
                 background-color: #F8F9FF;
             }
             .work-section{
                 background-color:lightgray;
-                padding:0;
+                padding:0px;
             }
+            .work-inq{
+                max-width: 100%;
+                background-image: url(images/Group_33094_1.png);
+                background-repeat: no-repeat;
+                padding: 10px 24px;
+                background-size: contain;
+                margin-top: 750px;
+                margin-left: 8px;
+
+            }
+            #inquiry {
+                font-size:25px;
+            }
+            #last-btn{
+font-size:10px;
+padding:5px 15px;
+            }
+            .col-1{
+                color: white;
+                    width: 70%;
+                }
+                .col-2{
+                    width: 30%;
+                }
+                .clearfix::after{
+                    clear:both;
+                    content: "";
+                    display: table;
+                    overflow: hidden;
+                }
         }
+    
     
